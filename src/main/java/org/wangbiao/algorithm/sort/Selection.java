@@ -15,8 +15,8 @@ public class Selection {
      * 选择排序:每一次从待排序的数据元素中选出最小(或最大)的一个元素,
      * 存放在序列的起始位置,只到全部待排序的元素排完.
      *
-     * @param arr
-     * @return
+     * @param arr 待排序的数组
+     * @return 排序后的数组
      */
     public static int[] sort(int[] arr) {
         int minIndex;// 记录最小值的索引
